@@ -1,0 +1,118 @@
+<?php
+session_start();
+
+if (isset($_SESSION['username'])) {
+    header("Location: login.php");
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Hunt</title>
+    <link rel="stylesheet" href="home.css">
+
+
+</head>
+<body>
+    <div class="container">
+        <h1>Market Hunt</h1>
+         <p>Explore a variety of categories including electronics, food, school equipment, footwear, and sportswear!</p>
+
+         <div class="top-nav">
+        <a href="about.html">About Us</a>
+        <a href="signup.php">Signup</a>
+        <a href="login.php">Login</a>
+    </div>
+        
+
+        <!-- Display market listings here -->
+        <div class="market-listings">
+            <!-- Placeholder for market listings -->
+
+            <div class="market">
+                <img src="nike.jpg" alt="Nike" title="Nike - Sports and Footwear">
+                <figcaption>Nike - Sportswear and Footwear</figcaption>
+                <a href="https://www.nike.com/" target="_blank">Step up your style game</a>
+            </div>
+
+            <div class="market">
+        <img src="adidas.png" alt="Adidas" title="Adidas - Sportswear and Footwear">
+        <figcaption>Adidas - Sportswear and Footwear</figcaption>
+        <a href="https://www.adidas.com/us" target="_blank">Elevate your wardrobe</a>
+    </div>
+
+    <div class="market">
+        <img src="nb.png" alt="New Balance" title="New Balance - Sportswear and Footwear">
+        <figcaption>New Balance - Sportswear and Footwear</figcaption>
+        <a href="https://www.newbalance.com/" target="_blank">Dress Better Today!</a>
+    </div>
+
+    <div class="market">
+        <img src="kfc.jpg" alt='KFC' title="KFC - Food">
+        <figcaption>KFC - Food</figcaption>
+        <a href="https://kfc.ke/" target="_blank">Order Food!</a>
+    </div>
+
+<div class="market">
+    <img src="cjs.jpg" alt="Cafe Javas" title="Cafe Javas - Food">
+    <figcaption>Cafe Javas - Food</figcaption>
+    <a href="https://cjs.co.ke/user/home" target="_blank">Eat Now!</a>
+</div>
+
+<div class="market">
+    <img src="bg.jpg" alt="Burger King" title="Burger King - Food">
+    <figcaption>Burger King - Food</figcaption>
+    <a href="https://burgerking.ke/" target="_blank">Grab a quick Burger!</a>
+</div>
+
+<div class="market">
+    <img src="samsung.jpg" alt="Samsung Electronics" title="Samsung - Electronics">
+    <figcaption>Samsung - Electronics</figcaption>
+    <a href="https://www.samsung.com/africa_en/" target="_blank">Explore the latest tech!</a>
+</div>
+
+<div class="market">
+        <img src="apple.png" alt="Apple" title="Apple - Electronics">
+        <figcaption>Apple - Electronics</figcaption>
+        <a href="https://www.apple.com/" target="_blank">Discover the latest tech</a>
+    </div>
+
+    <div class="market">
+        <img src="jbl.png" alt="JBL" title="JBL- Electronics">
+        <figcaption>JBL- Electronics</figcaption>
+        <a href="https://jbl.co.ke/" target="_blank">Order Now!</a>
+    </div>
+
+<div class="market">
+    <img src="bata.png" alt="Bata" title="Bata - School Equipment">
+    <figcaption>Bata - School Equipment</figcaption>
+    <a href="https://www.instagram.com/batakenya/?hl=en" target="_blank">Study in style!</a>
+</div>
+
+<div class="market">
+    <img src="picfare.jpg" alt="Picfare" title="Picfare - School Equipment">
+    <figcaption>Picfare - School Equipment</figcaption>
+    <a href="https://picfare.com/" target="_blank">Buy the Best!</a>
+</div>
+
+<div class="market">
+    <img src="nataraj.png" alt="Nataraj" title="Nataraj - School Equipment">
+    <figcaption>Nataraj - School Equipment</figcaption>
+    <a href="https://www.desertcart.co.ke/brand/nataraj" target="_blank">Upgrade Your School Game!</a>
+</div>
+
+        </div>
+    </div>
+<br>
+<section class="copyright">
+    <div class="container">
+        <p>&copy; 2024 Market Hunt. All rights reserved.</p>
+    </div>
+</section>
+
+
+
+</body>
+</html> 
